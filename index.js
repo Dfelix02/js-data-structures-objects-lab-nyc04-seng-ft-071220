@@ -1,3 +1,5 @@
+const driver = {};
+
 function updateDriverWithKeyAndValue(driverObj,key,value){
   return Object.assign({}, driverObj, { [key]: value });
 };
@@ -18,4 +20,3 @@ function destructivelyDeleteFromDriverByKey(){
   delete driverObj.key;
 };
 
-const driver = {};
